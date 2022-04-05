@@ -1,0 +1,228 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 19%;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+
+/* .navbar background new{
+    text-align: center;
+    font-size: 15px;
+} */
+
+.nav-list{
+    width: 61%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+    font-size: 17px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 20%;
+}
+.rightNav button a:hover{
+    text-decoration: none;
+    color: black;
+}
+.rightNav button:hover{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 20%;
+}
+
+.rightNav{
+    /* background-color: blueviolet; */
+    width: 35%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+
+.background{
+    background-color: rgb(0, 0, 103);
+    /* background-size: cover;
+    background-blend-mode: darken; */
+
+}
+.btn{
+    padding: 8px 17px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    color: aliceblue;
+}
+
+.btn-dark{
+    border: 2px solid gray;
+    margin: 0px 15px
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.text-footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+/* MAKING WEBSITE RESPONSIVE */
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 1150px){
+    /* Make flex direction as column in navbar
+       make width to fix */
+    #p1{
+        Left: 2%;
+        width: 13%;
+    }
+    #p2{
+        Left: 83%;
+        width: 14%;
+    }
+    .c2{
+        top: 25%;
+       left: 15%;
+       font-size: medium;
+    }
+    .c7{
+        display: flex;
+        flex-direction: column;
+        padding-left: 35%;
+    }
+    #p9{
+        width: 19%;
+    }
+    #p11{
+        padding: 7px 8px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .logo{
+        width: 75%;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 470px;
+    }
+
+    .rightNav{
+        text-align: center;
+    }
+
+    .burger{
+        display: block;
+        top: 18%;
+    }
+
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+
+    }
+
+}
