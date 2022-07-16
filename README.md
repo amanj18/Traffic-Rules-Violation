@@ -9,6 +9,6 @@ Anup Jaiswal : https://github.com/janup9967
 
 Yash Jain : https://github.com/jainyash4292
 
-Suresh Gupta : https://github.com/
+Suresh Gupta : https://github.com/21Saurabh
 
 Aman Jaiswal : https://github.com/Amanj-18
